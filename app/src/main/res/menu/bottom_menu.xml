@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:fontFamily="@font/circe"
+        android:icon="@drawable/item1"
+        android:orderInCategory="1"
+        android:title="Главная" />
+    <item
+        android:id="@+id/item2"
+        android:fontFamily="@font/circe"
+        android:icon="@drawable/item2"
+        android:orderInCategory="2"
+        android:title="@string/ca" />
+    <item
+        android:id="@+id/item3"
+        android:fontFamily="@font/circe"
+        android:icon="@drawable/item3"
+        android:title="Корзина"
+        android:orderInCategory="3"
+        />
+    <item
+        android:id="@+id/item4"
+        android:fontFamily="@font/circe"
+        android:icon="@drawable/item4"
+        android:title="Профиль"
+        android:orderInCategory="4"
+        />
+</menu>
